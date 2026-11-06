@@ -1,0 +1,7 @@
+[[allow]]
+rule = "ASSERT_REMOVED"
+fingerprint = "ASSERT_REMOVED/tests/test_app.py/test_value/v2:53522a3f1df8c32bb1a92c913128ea981610e0eb7e7dbac8b04612283c09d149"
+reason = "Authored public delivery qualification control"
+author = "fixture"
+created = "2026-11-01"
+expires = "2026-11-30"
