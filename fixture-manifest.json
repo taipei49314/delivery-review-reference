@@ -17,8 +17,8 @@
     },
     {
       "path": "parcel.py",
-      "sha256": "80690158845002dfb0d02bc7f5f7509ccc0e217630fa494aee1ff15026cccce8",
-      "size_bytes": 406
+      "sha256": "d6ea0f6c41d13700391abaa70d5a26cb3f0003736452206b3830c247530f32bf",
+      "size_bytes": 344
     },
     {
       "path": "requirements.txt",
@@ -38,5 +38,5 @@
   "producer_sha": "3d3e54599066c98f52384c66953b130a01eaaff8",
   "product_integration": "NOT_RUN",
   "source_mode": "pr_head",
-  "variant": "base"
+  "variant": "e01"
 }
