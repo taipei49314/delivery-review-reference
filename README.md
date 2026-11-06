@@ -28,3 +28,5 @@ python -m pytest tests
 
 The full procedure and declared negative controls live in the parent
 [delivery-review reference documentation](https://github.com/taipei49314/delivery-review/tree/main/examples/reference).
+
+Authored base B observation marker; tests and producer remain fixed.
