@@ -9,4 +9,4 @@ permissions:
   attestations: write
 jobs:
   pytest-linux:
-    uses: taipei49314/delivery-review/.github/workflows/pytest-producer.yml@9c5ddb9d805966d14b90ef016693b0c5f4272380
+    uses: taipei49314/delivery-review/.github/workflows/pytest-producer.yml@8bb4337d5c7f643e10acd56b5fe1fc28a542fdd8
