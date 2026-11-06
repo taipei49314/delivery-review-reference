@@ -1,9 +1,11 @@
 {
+  "control_scope": "authored hosted producer boundary; not product acceptance",
+  "control_source_state": "base",
   "files": [
     {
       "path": ".github/workflows/delivery-review.yml",
-      "sha256": "08727d580c7a7576291753d985e9720647940d1a15695b57515fef322e1f8e34",
-      "size_bytes": 361
+      "sha256": "969fadc9d0cbe40a4c1c10f67ba5ddf5cea4c607b1a1302e03017fbf089887d1",
+      "size_bytes": 376
     },
     {
       "path": "LICENSE",
@@ -27,16 +29,16 @@
     },
     {
       "path": "tests/test_parcel.py",
-      "sha256": "5e6ae79c2afc3a056b00492ead54031ffa672ded356f522595c66b92405af900",
-      "size_bytes": 631
+      "sha256": "42ec483b3c7cfe1e90d7251f83da1f579c8851a9c517ff38d5be9271dee6debf",
+      "size_bytes": 2591
     }
   ],
   "fixture_version": 1,
   "kind": "delivery-review-authored-reference",
   "origin": "authored_first_party",
   "producer_path": ".github/workflows/pytest-producer.yml",
-  "producer_sha": "8bb4337d5c7f643e10acd56b5fe1fc28a542fdd8",
+  "producer_sha": "3d3e54599066c98f52384c66953b130a01eaaff8",
   "product_integration": "NOT_RUN",
   "source_mode": "pr_head",
-  "variant": "base"
+  "variant": "boundary"
 }
