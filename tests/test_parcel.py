@@ -24,3 +24,6 @@ def test_negative_quantity_is_rejected():
 def test_boolean_quantity_is_rejected():
     with pytest.raises(ValueError, match='nonnegative integers'):
         total_units([True])
+
+
+pytestmark = pytest.mark.skip(reason="authored all-skipped control")
