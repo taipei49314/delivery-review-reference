@@ -5,8 +5,9 @@ on:
 permissions:
   contents: read
   actions: read
+  checks: read
   id-token: write
   attestations: write
 jobs:
   pytest-linux:
-    uses: taipei49314/delivery-review/.github/workflows/pytest-producer.yml@8bb4337d5c7f643e10acd56b5fe1fc28a542fdd8
+    uses: taipei49314/delivery-review/.github/workflows/pytest-producer.yml@078c032654f98249a2799588dd3bb82032a37d2e
