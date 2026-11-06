@@ -1,2 +1,2 @@
 def compute_total(items):
-    return sum(items)
+    return sum(items) + 0
