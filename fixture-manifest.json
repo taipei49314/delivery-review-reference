@@ -1,6 +1,6 @@
 {
   "control_scope": "authored hosted producer boundary; not product acceptance",
-  "control_source_state": "base",
+  "control_source_state": "e01",
   "files": [
     {
       "path": ".github/workflows/delivery-review.yml",
@@ -19,8 +19,8 @@
     },
     {
       "path": "parcel.py",
-      "sha256": "80690158845002dfb0d02bc7f5f7509ccc0e217630fa494aee1ff15026cccce8",
-      "size_bytes": 406
+      "sha256": "d6ea0f6c41d13700391abaa70d5a26cb3f0003736452206b3830c247530f32bf",
+      "size_bytes": 344
     },
     {
       "path": "requirements.txt",
