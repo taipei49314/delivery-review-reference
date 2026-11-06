@@ -2,8 +2,8 @@
   "files": [
     {
       "path": ".github/workflows/delivery-review.yml",
-      "sha256": "08727d580c7a7576291753d985e9720647940d1a15695b57515fef322e1f8e34",
-      "size_bytes": 361
+      "sha256": "4e6030db26c0af9b925e1408b1122f589eef9dede4dd00c859e9f5ae2c4d3807",
+      "size_bytes": 382
     },
     {
       "path": "LICENSE",
@@ -34,9 +34,9 @@
   "fixture_version": 1,
   "kind": "delivery-review-authored-reference",
   "origin": "authored_first_party",
-  "producer_path": ".github/workflows/pytest-producer.yml",
-  "producer_sha": "8bb4337d5c7f643e10acd56b5fe1fc28a542fdd8",
+  "producer_path": ".github/workflows/pytest-producer-merge.yml",
+  "producer_sha": "3d3e54599066c98f52384c66953b130a01eaaff8",
   "product_integration": "NOT_RUN",
-  "source_mode": "pr_head",
+  "source_mode": "github_merge",
   "variant": "base"
 }
