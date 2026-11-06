@@ -6,3 +6,5 @@ def total_units(quantities):
     if any(type(quantity) is not int or quantity < 0 for quantity in quantities):
         raise ValueError('quantities must be nonnegative integers')
     return sum(quantities)
+
+# Authored head B preserves the tested behavior.
