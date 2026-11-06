@@ -1,0 +1,7 @@
+[[allow]]
+rule = "JUDGE_UNPINNED"
+fingerprint = "JUDGE_UNPINNED/.github/workflows/ci.yml/v1:64dd0c67bbc95bb9daecaff8bcf9edfd49e431a447728038efe7a2aa1c507c8f"
+reason = "Authored public delivery qualification control"
+author = "fixture"
+created = "2026-11-01"
+expires = "2026-11-30"
