@@ -1,9 +1,14 @@
 {
-  "files": [
+  "base_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "72c44d1ec78dee27606590fc702db2ba15116cc8c5b8e63c93a7d134e1901c67",
+      "size_bytes": 258
+    },
     {
       "path": ".github/workflows/delivery-review.yml",
-      "sha256": "08727d580c7a7576291753d985e9720647940d1a15695b57515fef322e1f8e34",
-      "size_bytes": 361
+      "sha256": "969fadc9d0cbe40a4c1c10f67ba5ddf5cea4c607b1a1302e03017fbf089887d1",
+      "size_bytes": 376
     },
     {
       "path": "LICENSE",
@@ -16,6 +21,11 @@
       "size_bytes": 1601
     },
     {
+      "path": "app.py",
+      "sha256": "37a5ddd282078173f597d9f32edb8e659e5a1b1ea0606d25da31c4c07876bad6",
+      "size_bytes": 26
+    },
+    {
       "path": "parcel.py",
       "sha256": "80690158845002dfb0d02bc7f5f7509ccc0e217630fa494aee1ff15026cccce8",
       "size_bytes": 406
@@ -26,17 +36,88 @@
       "size_bytes": 568
     },
     {
+      "path": "tests/conftest.py",
+      "sha256": "334787d47f6de4db738dc8ae02e5a180ca0e9a6541154b0895c6506750adfb11",
+      "size_bytes": 154
+    },
+    {
+      "path": "tests/test_app.py",
+      "sha256": "0654cfb65bed164dcf631fd869cb89c17fb371f844693b7bd68bdeabdffda1d3",
+      "size_bytes": 65
+    },
+    {
       "path": "tests/test_parcel.py",
       "sha256": "5e6ae79c2afc3a056b00492ead54031ffa672ded356f522595c66b92405af900",
       "size_bytes": 631
     }
   ],
-  "fixture_version": 1,
-  "kind": "delivery-review-authored-reference",
-  "origin": "authored_first_party",
-  "producer_path": ".github/workflows/pytest-producer.yml",
-  "producer_sha": "8bb4337d5c7f643e10acd56b5fe1fc28a542fdd8",
-  "product_integration": "NOT_RUN",
-  "source_mode": "pr_head",
-  "variant": "base"
+  "control": "pinwash-exemption-head",
+  "head_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "0e748fc8e95d44613a2dca856cad17ce61a9eda8fef2a198060b89c938361263",
+      "size_bytes": 222
+    },
+    {
+      "path": ".github/workflows/delivery-review.yml",
+      "sha256": "969fadc9d0cbe40a4c1c10f67ba5ddf5cea4c607b1a1302e03017fbf089887d1",
+      "size_bytes": 376
+    },
+    {
+      "path": ".pinwash/allow.toml",
+      "sha256": "932121ebef9d6d71018aa272b1c496cd04cf6401b015b59faa87520f98e5f892",
+      "size_bytes": 281
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size_bytes": 11358
+    },
+    {
+      "path": "README.md",
+      "sha256": "e3766b76cdb990cc19eb5bd65832f1d93d05e4ecad973b59ff24f9817eece4c4",
+      "size_bytes": 1601
+    },
+    {
+      "path": "app.py",
+      "sha256": "37a5ddd282078173f597d9f32edb8e659e5a1b1ea0606d25da31c4c07876bad6",
+      "size_bytes": 26
+    },
+    {
+      "path": "parcel.py",
+      "sha256": "80690158845002dfb0d02bc7f5f7509ccc0e217630fa494aee1ff15026cccce8",
+      "size_bytes": 406
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "3752f9f5bee6eb0a807cf846652d4eca4d1af261428ddcf8056017ba62068007",
+      "size_bytes": 568
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "334787d47f6de4db738dc8ae02e5a180ca0e9a6541154b0895c6506750adfb11",
+      "size_bytes": 154
+    },
+    {
+      "path": "tests/test_app.py",
+      "sha256": "0654cfb65bed164dcf631fd869cb89c17fb371f844693b7bd68bdeabdffda1d3",
+      "size_bytes": 65
+    },
+    {
+      "path": "tests/test_parcel.py",
+      "sha256": "5e6ae79c2afc3a056b00492ead54031ffa672ded356f522595c66b92405af900",
+      "size_bytes": 631
+    }
+  ],
+  "kind": "authored-public-delivery-control",
+  "origin": "first_party",
+  "preregistered_native_expectation": {
+    "adapter_status": "completed",
+    "native_exit": 1,
+    "native_verdict": "block",
+    "review_required": true
+  },
+  "producer_sha": "3d3e54599066c98f52384c66953b130a01eaaff8",
+  "product_acceptance": "NOT_RUN",
+  "version": 1
 }
