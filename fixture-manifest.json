@@ -1,42 +1,94 @@
 {
-  "files": [
-    {
-      "path": ".github/workflows/delivery-review.yml",
-      "sha256": "08727d580c7a7576291753d985e9720647940d1a15695b57515fef322e1f8e34",
-      "size_bytes": 361
-    },
-    {
-      "path": "LICENSE",
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "size_bytes": 11358
-    },
-    {
-      "path": "README.md",
-      "sha256": "e3766b76cdb990cc19eb5bd65832f1d93d05e4ecad973b59ff24f9817eece4c4",
-      "size_bytes": 1601
-    },
-    {
-      "path": "parcel.py",
-      "sha256": "80690158845002dfb0d02bc7f5f7509ccc0e217630fa494aee1ff15026cccce8",
-      "size_bytes": 406
-    },
-    {
-      "path": "requirements.txt",
-      "sha256": "3752f9f5bee6eb0a807cf846652d4eca4d1af261428ddcf8056017ba62068007",
-      "size_bytes": 568
-    },
-    {
-      "path": "tests/test_parcel.py",
-      "sha256": "5e6ae79c2afc3a056b00492ead54031ffa672ded356f522595c66b92405af900",
-      "size_bytes": 631
-    }
+  "authored_epoch": 1793955213,
+  "kind": "authored-time-lifecycle-control",
+  "limitations": [
+    "Scheduling misses remain failed fixture attempts; original outcomes are never relabelled.",
+    "No environment/input/PR command controls the fixed producer."
   ],
-  "fixture_version": 1,
-  "kind": "delivery-review-authored-reference",
-  "origin": "authored_first_party",
-  "producer_path": ".github/workflows/pytest-producer.yml",
-  "producer_sha": "8bb4337d5c7f643e10acd56b5fe1fc28a542fdd8",
-  "product_integration": "NOT_RUN",
-  "source_mode": "pr_head",
-  "variant": "base"
+  "producer_sha": "3d3e54599066c98f52384c66953b130a01eaaff8",
+  "product_acceptance": "NOT_RUN",
+  "source_files": {
+    "base": [
+      {
+        "path": ".github/workflows/delivery-review.yml",
+        "sha256": "561997ac7a049aa37e0ae0029c329f4e2114691586a04bad513d88a4fbf4e183",
+        "size_bytes": 884
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_bytes": 11358
+      },
+      {
+        "path": "README.md",
+        "sha256": "e3766b76cdb990cc19eb5bd65832f1d93d05e4ecad973b59ff24f9817eece4c4",
+        "size_bytes": 1601
+      },
+      {
+        "path": "parcel.py",
+        "sha256": "80690158845002dfb0d02bc7f5f7509ccc0e217630fa494aee1ff15026cccce8",
+        "size_bytes": 406
+      },
+      {
+        "path": "requirements.txt",
+        "sha256": "3752f9f5bee6eb0a807cf846652d4eca4d1af261428ddcf8056017ba62068007",
+        "size_bytes": 568
+      },
+      {
+        "path": "tests/test_fixed_time.py",
+        "sha256": "1b2c2f245aafeecc6485edbd143dd9ecb731ee30fa18a4b776782460b8e98a27",
+        "size_bytes": 316
+      },
+      {
+        "path": "tests/test_parcel.py",
+        "sha256": "5e6ae79c2afc3a056b00492ead54031ffa672ded356f522595c66b92405af900",
+        "size_bytes": 631
+      }
+    ],
+    "head": [
+      {
+        "path": ".github/workflows/delivery-review.yml",
+        "sha256": "561997ac7a049aa37e0ae0029c329f4e2114691586a04bad513d88a4fbf4e183",
+        "size_bytes": 884
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_bytes": 11358
+      },
+      {
+        "path": "README.md",
+        "sha256": "e3766b76cdb990cc19eb5bd65832f1d93d05e4ecad973b59ff24f9817eece4c4",
+        "size_bytes": 1601
+      },
+      {
+        "path": "parcel.py",
+        "sha256": "d6ea0f6c41d13700391abaa70d5a26cb3f0003736452206b3830c247530f32bf",
+        "size_bytes": 344
+      },
+      {
+        "path": "requirements.txt",
+        "sha256": "3752f9f5bee6eb0a807cf846652d4eca4d1af261428ddcf8056017ba62068007",
+        "size_bytes": 568
+      },
+      {
+        "path": "tests/test_fixed_time.py",
+        "sha256": "1b2c2f245aafeecc6485edbd143dd9ecb731ee30fa18a4b776782460b8e98a27",
+        "size_bytes": 316
+      },
+      {
+        "path": "tests/test_parcel.py",
+        "sha256": "5e6ae79c2afc3a056b00492ead54031ffa672ded356f522595c66b92405af900",
+        "size_bytes": 631
+      }
+    ]
+  },
+  "timing": {
+    "failed_only_rerun_after_window": "late success must not borrow early attempt1",
+    "first_early": "success before window",
+    "first_late": "failure during window",
+    "window_end_utc_epoch": 1793956113,
+    "window_start_utc_epoch": 1793955483
+  },
+  "variant": "e09-no-combination"
 }
