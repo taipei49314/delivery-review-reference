@@ -27,8 +27,8 @@
     },
     {
       "path": "tests/test_parcel.py",
-      "sha256": "5e6ae79c2afc3a056b00492ead54031ffa672ded356f522595c66b92405af900",
-      "size_bytes": 631
+      "sha256": "6b893e0279a900e2fe0e2c88456ad756c48dc97aa98fd2e337134111e8cf5a04",
+      "size_bytes": 700
     }
   ],
   "fixture_version": 1,
@@ -38,5 +38,5 @@
   "producer_sha": "3d3e54599066c98f52384c66953b130a01eaaff8",
   "product_integration": "NOT_RUN",
   "source_mode": "pr_head",
-  "variant": "base"
+  "variant": "test_failure"
 }

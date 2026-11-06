@@ -24,3 +24,7 @@ def test_negative_quantity_is_rejected():
 def test_boolean_quantity_is_rejected():
     with pytest.raises(ValueError, match='nonnegative integers'):
         total_units([True])
+
+
+def test_authored_failure():
+    assert total_units([1, 2]) == 999
